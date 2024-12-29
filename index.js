@@ -53,10 +53,10 @@ async function sendNewYearEmails() {
 
     for (const email of emails) {
       const message = {
-        from: '"New Year Bot" <noreply@example.com>',
+        from: '"Traycer new year bot" <noreply@example.com>',
         to: email,
         subject: "🎉 Happy New Year! 🎉",
-        text: "Wishing you a fantastic New Year ahead filled with joy and success! 🎊",
+        text: "Wishing you a fantastic New Year ahead filled with joy and success! 🎊 from traycer , keep coding keep building",
       };
 
       await transporter.sendMail(message);
